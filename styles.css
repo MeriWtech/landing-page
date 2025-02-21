@@ -1,0 +1,45 @@
+.logo {
+    font-size: 18px;
+}
+
+.container-a, .container-b, header, ul {
+    display: flex;
+}
+
+.container-a, .container-b, header {
+    background-color: #79beee;
+}
+
+.container-a {
+    justify-content: center;
+}
+
+.container-b {
+    justify-content: space-between;
+    width: 1050px;
+    height: 500px;
+}
+
+.info, img {
+    flex-basis: 500px;
+}
+
+
+body {
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    color:#ebf7ff;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+ul {
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
